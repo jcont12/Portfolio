@@ -6,6 +6,20 @@
   position: absolute;
   width: 100%;
   text-align: center;
+  height:100%;
+}
+
+.navbar{
+  height:100%;
+  width: 10%;
+  background-color: rgba(0, 0, 0, 0.89);
+  display: inline-block;
+  float:left;
+}
+
+h2{
+  color:white;
+  margin: 1em 1em;
 }
 
 /*Index Styling*/
@@ -18,6 +32,7 @@
   position:relative;
   vertical-align: middle;
   color:white;
+  display: inline-block;
 
 }
 
@@ -47,10 +62,11 @@
   position:relative;
   vertical-align: middle;
   color:white;
+  display: inline-block;
 }
 
 .project-show{
-  border: 1px solid white;
+  /*border: white 1px solid;*/
   width:48%;
   display: inline-block;
 }
@@ -62,8 +78,36 @@
 }
 
 .project-p{
-  border: white 1px solid;
+  /*border: white 1px solid;*/
   width: 89%;
   margin: auto;
   text-align: justify;
+}
+
+/*Resume Styling*/
+#resume-block{
+  background-color: rgba(0, 0, 0, 0.68);
+  width: 75%;
+  height: 30em;
+  margin:5em auto 0;
+  position:relative;
+  color:white;
+  display: inline-block;
+}
+
+#resume-img{
+  border-radius: 120%;
+  width:11em;
+  margin: auto;
+}
+
+/*Contact styling*/
+#contact-block{
+  background-color: rgba(0, 0, 0, 0.68);
+  width: 40%;
+  height: 30em;
+  margin:5em auto 0;
+  position:relative;
+  color:white;
+  display: inline-block;
 }
