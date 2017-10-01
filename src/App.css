@@ -7,14 +7,20 @@
   width: 100%;
   text-align: center;
   height:100%;
+  font-family: AvantGarde;
+}
+
+@font-face {
+    font-family: AvantGarde;
+    src: url('./ITCAvantGardeStd-Bk.woff');
 }
 
 .navbar{
   height:100%;
   width: 10%;
-  background-color: rgba(0, 0, 0, 0.89);
-  display: inline-block;
+  background-color: black;
   float:left;
+  display: inline-block;
 }
 
 h2{
@@ -25,19 +31,19 @@ h2{
 /*Index Styling*/
 
 #index-block{
-  background-color: rgba(0, 0, 0, 0.68);
+  background-color: rgba(0, 0, 0, 0.70);
   width: 25%;
   height: 30em;
   margin: auto;
   position:relative;
   vertical-align: middle;
   color:white;
-  display: inline-block;
+  display:inline-block;
 
 }
 
 #index-img{
-  border-radius: 120%;
+  border-radius: 5%;
   width:11em;
   margin: 12em auto 0em;
 }
@@ -49,32 +55,36 @@ h2{
 
 #index-p{
   margin: 2em;
-  text-align: justify;
+  text-align: left;
 }
 
 /*Projects styling*/
 
 #project-block{
   background-color: rgba(0, 0, 0, 0.68);
-  width: 75%;
-  height: 30em;
-  margin:5em auto 0;
+  width: 85%;
+  height: 90%;
+  margin:2em auto 0;
   position:relative;
   vertical-align: middle;
   color:white;
-  display: inline-block;
+  display:inline-block;
 }
 
 .project-show{
   /*border: white 1px solid;*/
   width:48%;
+  height:30em;
+  vertical-align: top;
   display: inline-block;
 }
 
 .project-img{
-  border-radius: 10%;
-  width:40em;
-  height: 22em;
+  border-radius: 2%;
+  width:38em;
+  height: 20em;
+  margin-bottom: 1em;
+  box-shadow: 0 0 0.2em white;
 }
 
 .project-p{
@@ -92,12 +102,17 @@ h2{
   margin:5em auto 0;
   position:relative;
   color:white;
-  display: inline-block;
+  display:inline-block;
 }
 
 #resume-img{
   border-radius: 120%;
   width:11em;
+  margin: auto;
+}
+
+#resume-p{
+  width: 95%;
   margin: auto;
 }
 
@@ -109,5 +124,5 @@ h2{
   margin:5em auto 0;
   position:relative;
   color:white;
-  display: inline-block;
+  display:inline-block;
 }

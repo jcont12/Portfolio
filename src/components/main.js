@@ -89,7 +89,7 @@ handleContact(){
           <div id='resume-block'>
             <img id='resume-img' src={require('../images/professional.jpg')} alt='Devs4good images' />
             <h1 id='resume-h1'> Resume </h1>
-            <p className='resume-p'>Work Work Work Work Work Work</p>
+            <p id='resume-p'> My path as a professional has been a fun and enlightening adventure. Its scope is as varied as it has been challenging. From working as a mechanic assistant at a car dealership during my high school yeats, to my latest gig as a Jack of All Trades for an up and coming Company, I have always followed the same principles: Hard work, making decisions based on the well being of the Company, and learning from my mistakes.  </p>
           </div>
         </div>
       );
