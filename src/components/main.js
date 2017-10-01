@@ -89,7 +89,10 @@ handleContact(){
           <div id='resume-block'>
             <img id='resume-img' src={require('../images/professional.jpg')} alt='Devs4good images' />
             <h1 id='resume-h1'> Resume </h1>
-            <p id='resume-p'> My path as a professional has been a fun and enlightening adventure. Its scope is as varied as it has been challenging. From working as a mechanic assistant at a car dealership during my high school yeats, to my latest gig as a Jack of All Trades for an up and coming Company, I have always followed the same principles: Hard work, making decisions based on the well being of the Company, and learning from my mistakes.  </p>
+            <p id='resume-p'> To download my Resume <a href='../Jorge-Contreras-Loreto-Resume.pdf' download>click here.</a></p><br/>
+            <p id='resume-p'> My path as a professional has been as varied as it has been enlightening. From working as a mechanic assistant at a car dealership during my high school years, to my latest managerial position in a Jack-of-all-trades role for an up and coming Company, I have always followed the same principles: Hard work, focus on the clients best interest, and using mistakes to improve.</p><br/>
+            <p id='resume-p'> I have now decided to integrate my business and management skills to one of my newfound passions: Computer Programming.</p>
+
           </div>
         </div>
       );
