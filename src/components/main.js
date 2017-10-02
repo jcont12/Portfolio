@@ -49,7 +49,7 @@ handleContact(){
             <h2 onClick={this.handleContact}> Contact </h2>
           </div>
           <div id='index-block'>
-          <img id='index-img' src={require('../images/profile.jpg')} alt='Jorge profile picture' />
+          <img id='index-img' src={require('../images/profile.jpg')} alt='Jorge profile' />
             <h1 className='index-h1'> Jorge Contreras-Loreto </h1>
             <p className='index-p'> Self-taught programmer.</p><br/>
             <p className='index-p'> Switched careers and relocated to consolidate my newfound coding passion. But why coding? I am crazy about creating new things and acquiring new skills!</p><br/>
@@ -72,11 +72,11 @@ handleContact(){
           <div id='project-block'>
             <h1 className='project-h1'> Projects </h1>
             <div className='project-show'>
-              <img className='project-img' src={require('../images/devs4good.jpg')} alt='Devs4good images' />
+              <a href='https://github.com/jcont12/devs4good'><img className='project-img' src={require('../images/devs4good.jpg')} alt='Devs4good images' /></a>
               <p className='project-p'>Provide a platform through which web developers can give back to the community by bringing non-profit visions to life.</p>
             </div>
             <div className='project-show'>
-              <img className='project-img' src={require('../images/chantliMare.jpg')} alt='Chantli Mare images' />
+              <a href='https://github.com/jcont12/Chantli-Mare'><img className='project-img' src={require('../images/chantliMare.jpg')} alt='Chantli Mare images' /></a>
               <p className='project-p'>Webpage developed for Mexican Boutique Hotel in React</p>
             </div>
           </div>
