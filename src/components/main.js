@@ -70,7 +70,7 @@ handleContact(){
             <h2 onClick={this.handleContact}> Contact </h2>
           </div>
           <div id='project-block'>
-            <h1 className='project-h1'> Projects </h1>
+            <h1 id='project-h1'> Projects </h1>
             <div className='project-show'>
               <a href='https://github.com/jcont12/devs4good'><img className='project-img' src={require('../images/devs4good.jpg')} alt='Devs4good images' /></a>
               <p className='project-p'>Provide a platform through which web developers can give back to the community by bringing non-profit visions to life.</p>
@@ -115,7 +115,7 @@ handleContact(){
           </div>
           <div id='contact-block'>
             <h1 id='contact-h1'> Get in Touch </h1>
-            <p className='contact-p'>For any additional information, or if you would like to stay in touch with me please feel free to do so at: jorgeacontreasl@gmail.com</p>
+            <p id='contact-p'>For any additional information, or if you would like to stay in touch with me please feel free to do so at: jorgeacontreasl@gmail.com</p>
           </div>
         </div>
       );
