@@ -39,20 +39,22 @@ h2:hover{
 
 #index-block{
   background-color: rgba(0, 0, 0, 0.70);
-  width: 25%;
-  height: 30em;
-  margin: auto;
+  width: 38%;
+  height: 90%;
+  margin: 2em auto;
   position:relative;
-  vertical-align: middle;
+  vertical-align: bottom;
   color:white;
   display:inline-block;
+  overflow: auto;
+  clear:both;
 
 }
 
 #index-img{
   border-radius: 5%;
   width:11em;
-  margin: 12em auto 0em;
+  margin: 1em auto;
 }
 
 .index-h1{
@@ -60,8 +62,8 @@ h2:hover{
 
 }
 
-#index-p{
-  margin: 2em;
+.index-p{
+  margin: 0 2em ;
   text-align: left;
 }
 
@@ -76,6 +78,7 @@ h2:hover{
   vertical-align: middle;
   color:white;
   display:inline-block;
+  overflow: auto;
 }
 
 .project-show{
@@ -105,24 +108,25 @@ h2:hover{
 #resume-block{
   background-color: rgba(0, 0, 0, 0.68);
   width: 75%;
-  height: 30em;
+  height: 41em;
   margin:5em auto 0;
   position:relative;
   color:white;
   display:inline-block;
+  overflow: auto;
 }
 
 #resume-img{
   border-radius: 120%;
   width:11em;
-  margin: auto;
+  margin: 1em auto;
 }
 
 a{
     color: grey;
 }
 
-#resume-p{
+.resume-p{
   width: 95%;
   margin: auto;
 }
@@ -136,4 +140,5 @@ a{
   position:relative;
   color:white;
   display:inline-block;
+  overflow: auto;
 }
