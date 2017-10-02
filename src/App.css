@@ -228,7 +228,7 @@ a{
   /*mobile*/h2{
     color:white;
     margin: 1em 1em;
-    font-size: 0.8em;
+    font-size: 1.5em;
     display: inline-block;
     vertical-align: middle;
   }
@@ -270,7 +270,7 @@ a{
   /*mobile*/.index-p{
     margin: 0 2em ;
     text-align: center;
-    font-size: 0.7em;
+    font-size: 1em;
   }
 
   /*Projects styling*/
@@ -311,7 +311,7 @@ a{
     width: 89%;
     margin: auto;
     text-align: justify;
-    font-size: 0.7em;
+    font-size: 1em;
   }
 
   /*Resume Styling*/
@@ -342,7 +342,7 @@ a{
   /*mobile*/.resume-p{
     width: 95%;
     margin: auto;
-    font-size: 0.75em;
+    font-size: 1em;
   }
 
   /*Contact styling*/
@@ -364,6 +364,6 @@ a{
   /*mobile*/#contact-p{
     width: 95%;
     margin: auto;
-    font-size: 0.75em;
+    font-size: 1em;
   }
 }
