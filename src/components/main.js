@@ -56,7 +56,7 @@ handleContact(){
             <p className='index-p'>I see coding as a skill that has unlimited potential and provides me with a medium to create beautiful and meaningful things that can improve others lives.</p><br/>
             <p className='index-p'> I have experience managing teams and leading projects and am a firm believer that teams that have more fun communicate better and do better quality work.</p><br/>
             <p className='index-p'>If you want to reach out for a chat and to share ideas, contact me: </p><br/>
-            <p className='index-p'>📬 jorgeacontrerasl@gmail.com</p>
+            <p className='index-p'> jorgeacontrerasl@gmail.com</p>
           </div>
         </div>
       );
