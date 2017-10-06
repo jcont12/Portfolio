@@ -37,6 +37,7 @@
     clear:both;
     font-size: 0.6em;
   }
+
 }
 
 
@@ -56,7 +57,7 @@ h2:hover{
 
 #index-block{
   background-color: rgba(0, 0, 0, 0.70);
-  width: 38%;
+  width: 40%;
   height: 90%;
   margin: 2em auto;
   position:relative;
@@ -81,6 +82,7 @@ h2:hover{
 .index-p{
   margin: 0 2em ;
   text-align: left;
+
 }
 
 /*Projects styling*/
@@ -183,7 +185,7 @@ a{
   background-color: rgba(0, 0, 0, 0.68);
   width: 40%;
   height: 40em;
-  margin:5em auto 0;
+  margin: 2em auto 0;
   position:relative;
   color:white;
   display:inline-block;
@@ -326,6 +328,7 @@ a{
     margin: 0 2em ;
     text-align: center;
     font-size: 1em;
+    padding-bottom:1em;
   }
 
   /*Projects styling*/
