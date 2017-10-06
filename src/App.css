@@ -1,6 +1,5 @@
 #skin{
   background: url('./images/background.jpg') no-repeat center center fixed;
-
 }
 
 #main{
@@ -157,7 +156,7 @@ h2:hover{
   background-color: rgba(0, 0, 0, 0.68);
   width: 75%;
   height: 41em;
-  margin:5em auto 0;
+  margin:2em auto 0;
   position:relative;
   color:white;
   display:inline-block;
@@ -183,7 +182,7 @@ a{
 #contact-block{
   background-color: rgba(0, 0, 0, 0.68);
   width: 40%;
-  height: 30em;
+  height: 40em;
   margin:5em auto 0;
   position:relative;
   color:white;
@@ -197,6 +196,62 @@ a{
   margin: auto;
   text-align: justify;
 }
+
+#contact-form{
+  position: relative;
+  margin: auto;
+  width: 80%;
+  height: 80%;
+  display: inline-block;
+}
+
+.contact-form-div{
+  margin: 1em;
+}
+
+.contact-form-input{
+  width:20em;
+
+}
+
+#contact-form-textarea{
+  width: 30em;
+  height:20em;
+}
+
+#contact-form-submit{
+    font-family: AvantGarde;
+}
+
+/*ADD SPECIFIC SMALLER SCREEN COMPUTER FORM MODIFICATION*/
+@media screen and (max-width: 1250px){
+  #contact-form{
+    position: relative;
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    display: inline-block;
+  }
+
+  .contact-form-div{
+    margin: 1em;
+  }
+
+  .contact-form-input{
+    width:20em;
+
+  }
+
+  #contact-form-textarea{
+    width: 25em;
+    height:20em;
+  }
+
+  #contact-form-submit{
+      font-family: AvantGarde;
+  }
+}
+
 /*------------------------ADD MOBILE RESPONSIVENESS----------------------------------*/
 @media screen and (max-width: 780px){
   /*mobile*/#skin{
@@ -348,9 +403,9 @@ a{
   /*Contact styling*/
   /*mobile*/#contact-block{
     background-color: rgba(0, 0, 0, 0.68);
-    width: 80%;
-    height: 8em;
-    margin:12em auto;
+    width: 90%;
+    height: 90%;
+    margin:1em auto;
     position:relative;
     color:white;
     display:inline-block;
@@ -366,4 +421,23 @@ a{
     margin: auto;
     font-size: 1em;
   }
+
+
+    /*mobile*/.contact-form-div{
+    margin: 1em;
+  }
+
+    /*mobile*/.contact-form-input{
+    width:15em;
+
+  }
+
+    /*mobile*/#contact-form-textarea{
+    width: 15em;
+    height:20em;
+  }
+
+    /*mobile*/#contact-form-submit{
+      font-family: AvantGarde;
+}
 }

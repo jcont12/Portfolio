@@ -115,7 +115,25 @@ handleContact(){
           </div>
           <div id='contact-block'>
             <h1 id='contact-h1'> Get in Touch </h1>
-            <p id='contact-p'>For any additional information, or if you would like to stay in touch with me please feel free to do so at: jorgeacontreasl@gmail.com</p>
+            <p id='contact-p'>Please feel free to add me to any of my social media profiles, or send me a message:</p>
+            <form id='contact-form' action="https://formspree.io/jorgeacontrerasl@email.com" method="POST">
+              <div className='contact-form-div'>
+                <label> Full Name </label><br/>
+                <input className='contact-form-input' type="text" name="name"/>
+              </div>
+              <div className='contact-form-div'>
+                <label> E-mail </label><br/>
+                <input className='contact-form-input' type="email" name="_replyto"/>
+              </div>
+              <div className='contact-form-div'>
+                <label> Message </label><br/>
+                <textarea id='contact-form-textarea' name="message"></textarea>
+              </div>
+              <div className='contact-form-div'><br/>
+                <input id='contact-form-submit' type="submit" value="Send"/>
+              </div>
+            </form>
+
           </div>
         </div>
       );
