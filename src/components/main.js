@@ -116,7 +116,7 @@ handleContact(){
           <div id='contact-block'>
             <h1 id='contact-h1'> Get in Touch </h1>
             <p id='contact-p'>Please feel free to add me to any of my social media profiles, or send me a message:</p>
-            <form id='contact-form' action="https://formspree.io/jorgeacontrerasl@email.com" method="POST">
+            <form id='contact-form' action="https://formspree.io/jorgeacontrerasl@gmail.com" method="POST">
               <div className='contact-form-div'>
                 <label> Full Name </label><br/>
                 <input className='contact-form-input' type="text" name="name"/>
