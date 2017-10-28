@@ -43,7 +43,7 @@ handleContact(){
       return(
         <div id='main'>
           <div className='navbar'>
-            <h2 onClick={this.handleHome}> Home </h2>
+            <h2 id='home' onClick={this.handleHome}> Home </h2>
             <h2 onClick={this.handleProjects}> Projects </h2>
             <h2 onClick={this.handleResume}> Resume </h2>
             <h2 onClick={this.handleContact}> Contact </h2>
