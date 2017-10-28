@@ -99,6 +99,15 @@ h2:hover{
   overflow: auto;
 }
 
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background-color: grey;
+}
+
 .project-show{
   /*border: white 1px solid;*/
   width:48%;
@@ -117,7 +126,7 @@ h2:hover{
 
 .project-p{
   /*border: white 1px solid;*/
-  width: 89%;
+  width: 36em;
   margin: auto;
   text-align: justify;
 }
@@ -134,6 +143,10 @@ h2:hover{
     color:white;
     display:inline-block;
     overflow: auto;
+  }
+
+  ::-webkit-scrollbar{
+    width: 10px;
   }
 
   .project-show{

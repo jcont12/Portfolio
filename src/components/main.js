@@ -83,6 +83,8 @@ handleContact(){
               <a href='https://github.com/jcont12/Portfolio'><img className='project-img' src={require('../images/Portfolio.png')} alt='Portfolio images' /></a>
               <p className='project-p'>Portfolio Page - Single page application in React</p>
             </div>
+            <div className='project-show'>
+            </div>
           </div>
         </div>
       );
