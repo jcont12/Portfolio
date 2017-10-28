@@ -79,6 +79,10 @@ handleContact(){
               <a href='https://github.com/jcont12/Chantli-Mare'><img className='project-img' src={require('../images/chantliMare.jpg')} alt='Chantli Mare images' /></a>
               <p className='project-p'>Webpage developed for Mexican Boutique Hotel in React</p>
             </div>
+            <div className='project-show'>
+              <a href='https://github.com/jcont12/Portfolio'><img className='project-img' src={require('../images/Portfolio.png')} alt='Portfolio images' /></a>
+              <p className='project-p'>Portfolio Page - Single page application in React</p>
+            </div>
           </div>
         </div>
       );
