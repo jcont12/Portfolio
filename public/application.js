@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  $('#home').click(function(){
-    $('#index-img').fadeIn('slow', function(){});
+  $('.navbar').hover(function(){
+    $(this).addClass('show')
   });
   // This is called after the document has loaded in its entirety
   // This guarantees that any elements we bind to will exist on the page

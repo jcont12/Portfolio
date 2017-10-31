@@ -10,6 +10,7 @@
   font-family: AvantGarde;
 }
 
+
 @font-face {
     font-family: AvantGarde;
     src: url('./ITCAvantGardeStd-Bk.woff');
@@ -23,6 +24,7 @@
   display: inline-block;
   overflow: auto;
   clear:both;
+  opacity:0;
 }
 
 /*ADD SPECIFIC SMALLER SCREEN COMPUTER NAV BAR MODIFICATION*/
@@ -69,6 +71,7 @@ h2:hover{
 }
 
 #index-img{
+  transition
   border-radius: 5%;
   width:11em;
   margin: 1em auto;
