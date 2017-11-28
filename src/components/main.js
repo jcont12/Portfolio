@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
-
+import Project from './project';
 
 class Main extends Component {
   constructor(){
@@ -14,31 +14,52 @@ class Main extends Component {
     this.handleContact = this.handleContact.bind(this);
   }
 
-handleHome(){
-  this.setState({
-    currentPage: 'index'
-  })
-}
 
-handleProjects(){
-  this.setState({
-    currentPage: 'projects'
-  })
-}
 
-handleResume(){
-  this.setState({
-    currentPage: 'resume'
-  })
-}
+  handleHome(){
+    this.setState({
+      currentPage: 'index'
+    })
+  }
 
-handleContact(){
-  this.setState({
-    currentPage: 'contact'
-  })
-}
+  handleProjects(){
+    this.setState({
+      currentPage: 'projects'
+    })
+  }
+
+  handleResume(){
+    this.setState({
+      currentPage: 'resume'
+    })
+  }
+
+  handleContact(){
+    this.setState({
+      currentPage: 'contact'
+    })
+  }
 
   render(){
+
+    let equis = ['hello',{'world':'yes'}]
+    let ProjectLibrary = [
+      {
+        'title': 'Devs4Good',
+        'images': ['../images/devs4good.jpg'],
+        'github': 'https://github.com/jcont12/devs4good',
+        'site': 'http://devs4good.herokuapp.com/',
+        'description': 'Provide a platform through which web developers can give back to the community by bringing non-profit visions to life.'
+      },
+      {
+        'title': 'Devs4Good',
+        'images': ['../images/devs4good.jpg'],
+        'github': 'https://github.com/jcont12/devs4good',
+        'site': 'http://devs4good.herokuapp.com/',
+        'description': 'Provide a platform through which web developers can give back to the community by bringing non-profit visions to life.'
+      }
+    ]
+
     if (this.state.currentPage === 'index') {
       return(
         <div id='main'>
@@ -72,18 +93,35 @@ handleContact(){
           <div id='project-block'>
             <h1 id='project-h1'> Projects </h1>
             <div className='project-show'>
-              <a href='https://github.com/jcont12/devs4good'><img className='project-img' src={require('../images/devs4good.jpg')} alt='Devs4good images' /></a>
-              <p className='project-p'>Provide a platform through which web developers can give back to the community by bringing non-profit visions to life.</p>
+              <h3> Devs4Good </h3>
+              <img className='project-img' src={require('../images/devs4good.jpg')} alt='Devs4good site images' /><br></br>
+              <a href='https://github.com/jcont12/devs4good'><img className='link-img' src={require('../images/Github.jpg')} alt='github link to Devs4Good' /></a>
+              <a href='http://devs4good.herokuapp.com/'><img className='link-img' src={require('../images/site.png')} alt='site link to Devs4Good' /></a>
+              <p className='project-p'>Provide a platform through which web developers can give back to the community by bringing non-profit visions to life.</p><br/>
+              <p className='project-p'><u>Technologies used:</u> Ruby on Rails, Travis CI, SimpleCov, RSpec, HTML, CSS, JavaScript, JQuery, Bourbon, Propublica API, ActiveRecord.</p>
             </div>
             <div className='project-show'>
-              <a href='https://github.com/jcont12/Chantli-Mare'><img className='project-img' src={require('../images/chantliMare.jpg')} alt='Chantli Mare images' /></a>
-              <p className='project-p'>Webpage developed for Mexican Boutique Hotel in React</p>
+              <h3> Chantli Mare </h3>
+              <img className='project-img' src={require('../images/chantliMare.png')} alt='Chantli Mare site images' /><br></br>
+              <a href='https://github.com/jcont12/Chantli-Mare'><img className='link-img' src={require('../images/Github.jpg')} alt='github link to Chantli are' /></a>
+              <a href='http://chantlimare.com.s3-website-us-west-1.amazonaws.com/'><img className='link-img' src={require('../images/site.png')} alt='Site link to Chantli Mare' /></a>
+              <p className='project-p'>Webpage developed for Mexican Boutique Hotel in React</p><br/>
+              <p className='project-p'><u>Technologies used:</u> React.js, HTML, CSS, AWS S3. </p>
             </div>
             <div className='project-show'>
-              <a href='https://github.com/jcont12/Portfolio'><img className='project-img' src={require('../images/Portfolio.png')} alt='Portfolio images' /></a>
-              <p className='project-p'>Portfolio Page - Single page application in React</p>
+              <h3> Portfolio </h3>
+              <img className='project-img' src={require('../images/portfolio.png')} alt='Portfolio images' /><br></br>
+              <a href='https://github.com/jcont12/Portfolio'><img className='link-img' src={require('../images/Github.jpg')} alt='github link to Portfolio' /></a>
+              <a href='http://jorgeacl.me/'><img className='link-img' src={require('../images/site.png')} alt='site link to Portfolio' /></a>
+              <p className='project-p'>Portfolio Page - Single page application in React</p><br/>
+              <p className='project-p'><u>Technologies used:</u> React.js, HTML, CSS, AWS S3, AWS Route 53 .</p>
             </div>
             <div className='project-show'>
+            <h3> Aidup </h3>
+              <img className='project-img' src={require('../images/Aidup.png')} alt='Aidup site images' /><br></br>
+              <a href='https://github.com/jcont12/aid'><img className='link-img' src={require('../images/Github.jpg')} alt='github link to aidup' /></a>
+              <p className='project-p'> Work In Progress </p><br/>
+              <p className='project-p'><u>Technologies used:</u> Node.js, JavaScript. MySQL, Sequelize, HTML, CSS.</p>
             </div>
           </div>
         </div>
@@ -146,5 +184,7 @@ handleContact(){
     }
   }
 }
+
+
 
 export default Main;

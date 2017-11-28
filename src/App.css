@@ -24,7 +24,6 @@
   display: inline-block;
   overflow: auto;
   clear:both;
-  opacity:0;
 }
 
 /*ADD SPECIFIC SMALLER SCREEN COMPUTER NAV BAR MODIFICATION*/
@@ -114,7 +113,7 @@ h2:hover{
 .project-show{
   /*border: white 1px solid;*/
   width:48%;
-  height:30em;
+  height:35em;
   vertical-align: top;
   display: inline-block;
 }
@@ -123,8 +122,14 @@ h2:hover{
   border-radius: 2%;
   width:36em;
   height: 20em;
-  margin-bottom: 1em;
+  margin-bottom: 0.3em;
   box-shadow: 0 0 0.2em white;
+}
+
+
+.link-img{
+  width: 4.5%;
+  padding-left: 1em;
 }
 
 .project-p{
@@ -145,7 +150,7 @@ h2:hover{
     vertical-align: middle;
     color:white;
     display:inline-block;
-    overflow: auto;
+    overflow:hidden;
   }
 
   ::-webkit-scrollbar{
@@ -153,10 +158,10 @@ h2:hover{
   }
 
   .project-show{
-    /*border: white 1px solid;*/
+    border: white 1px solid;
     width:80%;
-    height:80%;
-    margin:auto;
+    margin: auto;
+    margin-bottom: 10em;
     vertical-align: top;
     display: block;
   }
